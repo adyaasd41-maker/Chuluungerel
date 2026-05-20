@@ -1,6 +1,3 @@
-// Login component доторх submit function-ийг БҮТНЭЭР нь устгаад
-// доорх кодоор солиорой.
-
 async function submit(e) {
   e.preventDefault();
   setError('');
