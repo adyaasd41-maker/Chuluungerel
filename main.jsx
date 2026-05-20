@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BarChart3, Coffee, CreditCard, FileSpreadsheet, LogOut, Moon, Sun, Bot } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, LineChart, Line } from 'recharts';
 import './index.css';
-import { api, apiBase } from './api/client';
+import { api, apiBase } from './client';
 
 function Login({ onLogin }) {
   const [email,setEmail]=useState('admin@demo.mn');
